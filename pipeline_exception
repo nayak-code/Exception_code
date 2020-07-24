@@ -106,7 +106,7 @@ pipeline {
                     }
                     catch(Exception e6)
                     {
-                        mail bcc: '', body: 'Unable to deploy into prod server', cc: '', from: '', replyTo: '', subject: 'Delivery failed', to: 'prodmanager@gmail.com'
+                        mail bcc: '', body: 'Unable to deploy into prod server', cc: '', from: '', replyTo: '', subject: 'Delivery failed', to: 'prodmanagr@gmail.com'
                         exit(1)
                     }
                 }
