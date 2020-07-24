@@ -1,2 +1,3 @@
 This is a declarative pipeline with Exception Handling
-All stages
+All stages are under exception handling
+It will run automatically, when any changes will be made....
