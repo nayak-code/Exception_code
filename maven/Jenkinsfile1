@@ -14,7 +14,7 @@ pipeline {
                     }
                     catch(Exception e1)
                     {
-                        mail bcc: '', body: 'Jenkins is unable to download the code from github', cc: '', from: '', replyTo: '', subject: 'Download Failed', to: 'gitadmin@gmail.com'
+                        mail bcc: '', body: 'Jenkins is unable to download the codes from github', cc: '', from: '', replyTo: '', subject: 'Download Failed', to: 'gitadmin@gmail.com'
                         exit(1)
                     }
                 }
